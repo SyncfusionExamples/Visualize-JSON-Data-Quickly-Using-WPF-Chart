@@ -1,2 +1,8 @@
 # Visualize-JSON-Data-Quickly-Using-WPF-Chart
-One of the most widely used data formats is JSON, but working with it can be challenging. This application enables the creation of charts and the user-friendly processing of JSON data.
+
+Four easy steps can be used to quickly display data from a JSON web service using the WPF Charts simplicity:
+1.	Retrieve the data from json string or web service using HttpClient.
+2.	Deserialize the JSON data to create a list of ExpandoObject.
+3.	List of ExpandoObjects to DataTable Conversion
+4.	Set the ItemsSource property of the chart to the data table along with the binding path of the X and Y in the Chart Series.
+
